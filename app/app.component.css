@@ -1,0 +1,31 @@
+p {
+  font-family: Lato;
+}
+
+.carousel{
+    width: 450px;
+    height: 200px;
+}
+
+.carousel .img-video-div{    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.img-video-div video, .img-video-div img{
+    height: 100%;
+    width: auto;
+}
+
+.carousel .carousel-control{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  top: 40%;
+}
